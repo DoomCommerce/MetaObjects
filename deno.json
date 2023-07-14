@@ -1,0 +1,40 @@
+{
+    "tasks" : {
+        "tunnel" : "bash .github/Tasks/Tunnel.sh" ,
+        "dev" : "bash .github/Tasks/Dev.sh"
+    },
+
+    "compilerOptions" : {
+
+        "jsxImportSource": "preact" ,
+        "jsx": "react-jsx",
+
+        "lib" : [
+
+            "dom.asynciterable",
+            "dom.iterable",
+            "dom",
+
+            "deno.ns" ,
+            "deno.unstable"
+        ]
+    },
+
+    "importMap" : "./.github/Imports.json" ,
+
+    "suggest": {
+
+        "completeFunctionCalls": false,
+        "autoImports": true,
+        "names": true,
+        "paths": true,
+
+        "imports": {
+            "autoDiscover": true,
+            "hosts": {
+                "https://deno.land": true ,
+                "https://npmjs.com/" : true
+            }
+        }
+    }
+}

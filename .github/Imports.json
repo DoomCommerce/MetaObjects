@@ -1,0 +1,52 @@
+{
+    "imports": {
+
+        "Shopify/Adapter" : "npm:@shopify/shopify-api@7.2.0/adapters/node" ,
+        "RestResources" : "npm:@shopify/shopify-api@7.2.0/rest/admin/2023-04/" ,
+        "Shopify" : "npm:@shopify/shopify-api@7.2.0" ,
+
+        "DotEnv" : "https://deno.land/std@0.188.0/dotenv/mod.ts" ,
+        "Yaml" : "https://deno.land/std@0.188.0/yaml/mod.ts" ,
+        "Path" : "https://deno.land/std@0.188.0/path/mod.ts" ,
+
+        "Zod" : "https://deno.land/x/zod@v3.21.4/mod.ts" ,
+
+        "Fresh/": "https://deno.land/x/fresh@1.1.6/",
+
+        "preact": "https://esm.sh/preact@10.13.1",
+        "preact/": "https://esm.sh/preact@10.13.1/",
+        "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.6",
+        "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
+        "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
+
+        "Environment" : "../Source/Environment.ts" ,
+        "UI" : "../Source/Components/_.ts" ,
+        "Graph" : "../Source/Shopify/Graph.ts" ,
+        "Shopify/API" : "../Source/Shopify/Queries/_.ts" ,
+        "Types" : "../Source/Shopify/Queries/Types.ts" ,
+
+        "Icon/" : "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/" ,
+
+        "~" : "../Source/" ,
+
+        "twind/" : "https://esm.sh/v98/twind@0.16.17/" ,
+        "twind" : "https://esm.sh/v98/twind@0.16.17/" ,
+        "Wind/" : "https://esm.sh/v98/twind@0.16.17/" ,
+        "Wind" : "https://esm.sh/v98/twind@0.16.17" ,
+
+        "Storefront/Types" : "../Source/Shopify/Storefront/Types.ts" ,
+
+        "Cookies" : "https://esm.sh/js-cookie@3.0.5" ,
+
+        "Data" : "../Source/Data/_.ts" ,
+
+        "Deno/": "https://deno.land/std@0.191.0/" ,
+
+        "TOTP" : "https://deno.land/x/otpauth@v9.1.2/dist/otpauth.esm.js" ,
+
+        "Cookie" : "https://deno.land/std@0.191.0/http/cookie.ts" ,
+        "Async" : "https://deno.land/std@0.191.0/async/mod.ts" ,
+
+        "Leaflet/" : "https://cdn.esm.sh/react-leaflet/"
+    }
+}
